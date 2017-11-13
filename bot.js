@@ -7,7 +7,7 @@ bot.on("ready", () => {
 })
  
 bot.on("message", message => {
-  if (message.content == "Hey Hulk" {
+  if (message.content == "Hey Hulk") {
      message.reply("Sup")
    }
 })
