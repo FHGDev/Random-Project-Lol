@@ -6,4 +6,4 @@ bot.on("ready", () => {
   bot.user.setGame("Hulkbot Dev...")
 })
 
-bot.login(proccess.env.token)
+bot.login(process.env.token)
