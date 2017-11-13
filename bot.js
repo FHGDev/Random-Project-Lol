@@ -13,6 +13,10 @@ bot.on("message", message => {
   if (message.content == "How ya doing? Is Hulkbot going well?") {
      message.channel.send("Yeah it's going pretty well. I don't have much time to be on anymore, but Heroku will host my bot 24/7 which is good.")
   }
+  if (message.content == "Oh, I've gtg. Cya later.") {
+     message.channel.send("Okay same here. Cya later.")
+    bot.user.setGame("School")
+  }
 })
 
 bot.login(process.env.token)
