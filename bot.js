@@ -15,7 +15,7 @@ bot.on("message", message => {
   }
   if (message.content == "Oh, I've gtg. Cya later.") {
      message.channel.send("Okay same here. Cya later.")
-    bot.user.setGame("School")
+    bot.logout(process.env.token)
   }
 })
 
