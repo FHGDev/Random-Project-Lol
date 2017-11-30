@@ -3,7 +3,7 @@ const bot = new discord.Client();
 
 bot.on("ready", () => {
   console.log("Real Life Hulk Simulator v1.0 loaded")
-  bot.user.setGame("School...")
+  bot.user.setGame("Hulkbot Development")
 })
  
 bot.on("message", message => {
@@ -18,4 +18,4 @@ bot.on("message", message => {
   }
 })
 
-bot.login(process.env.token)
+bot.login(process.env.tok)
