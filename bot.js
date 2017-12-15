@@ -8,7 +8,7 @@ bot.on("ready", () => {
  
 bot.on("message", message => {
   if (message.content == "Hey Hulk") {
-     message.reply("Sup")
+     message.channel.send("Sup")
    }
   if (message.content == "How ya doing? Is Hulkbot going well?") {
      message.channel.send("Yeah it's going pretty well. I don't have much time to be on anymore, but Heroku will host my bot 24/7 which is good.")
